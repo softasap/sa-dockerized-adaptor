@@ -1,4 +1,4 @@
 ---
 # tasks file for sa-include
   - name: Install sudo to cover unprepared roles
-    apt: name="sudo" state="present"
+    apt: name="sudo" state="present" update_cache="yes"
